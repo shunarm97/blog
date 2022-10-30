@@ -19,10 +19,10 @@ const Post = db.define('post', {
         allowNull: false
     },
     //? llave foranea de users
-    createdBy : {
+    userId : {
         type: DataTypes.UUID ,
         allowNull: false,
-        field: 'created_by',
+        field: 'user_id',
         references: {
             key: 'id',
             model: Users
@@ -38,6 +38,6 @@ const Post = db.define('post', {
         }
     }
 
-})
+}) 
 
 module.exports =  Post
