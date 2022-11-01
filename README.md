@@ -51,6 +51,12 @@
 /posts
          - /:id
          
-        
 
 
+1.0.5   
+
+0.0.5   solucion de bug
+
+0.5.0   agregar pequeñas funcionalidades
+
+5.0.0   agregar funcionalidades mas completas que requiere cambios grandes en la app y su funcionamiento
