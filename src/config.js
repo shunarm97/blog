@@ -6,6 +6,7 @@ const config = {
     port : process.env.PORT || 9000,
     nodeEnv : process.env.NODE_ENV || 'development',
     jwtSecret: process.env.JWT_SECRET,
+    host: process.env.HOST || 'http://localhost:9000',
     db : {
         host: process.env.HOST || 'localhost',
         username: process.env.DB_USERS || 'postgres',
